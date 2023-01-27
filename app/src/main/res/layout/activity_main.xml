@@ -27,7 +27,6 @@
         android:layout_marginEnd="16dp"
         android:text="Androidメンターのくろえだよ"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/show_profile_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile_label_text" />
@@ -45,21 +44,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile_image" />
-
-    <Button
-        android:id="@+id/show_profile_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:layout_weight="1"
-        android:text="名前"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profile_comment_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
