@@ -55,7 +55,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:layout_weight="1"
-        android:backgroundTint="#00B4DC"
         android:text="名前"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
